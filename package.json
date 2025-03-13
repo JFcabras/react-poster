@@ -7,8 +7,7 @@
 	  "dev": "vite",
 	  "build": "vite build",
 	  "lint": "eslint .",
-	  "preview": "vite preview",
-	  "postinstall": "node -e \"if (process.platform !== 'win32') { require('child_process').execSync('npm install @rollup/rollup-linux-x64-gnu --no-optional'); } else { console.log('Skipping Linux-specific dependency on Windows'); }\""
+	  "preview": "vite preview"
 	},
 	"dependencies": {
 	  "react": "^18.3.1",
