@@ -1,0 +1,16 @@
+# Lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Vite Output
+.vite
+/dist
+
+# Vercel Build Cache (Prevents old builds from causing issues)
+.vercel/cache
+
+# Environment Variables
+.env
+.env.*.local
+.vercel
